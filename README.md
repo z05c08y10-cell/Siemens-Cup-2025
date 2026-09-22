@@ -1,5 +1,9 @@
 # 西门子25赛题 — GD32F470 电压监测系统
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![MCU](https://img.shields.io/badge/MCU-GD32F470VET6-blue.svg)
+![Toolchain](https://img.shields.io/badge/Toolchain-Keil%20MDK%20ARMCC%20V5-green.svg)
+
 基于 **GD32F470VET6** 的工业嵌入式电压采集、处理、显示与存储系统。
 
 > 西门子杯中国智能制造挑战赛 · 2025 赛题工程
