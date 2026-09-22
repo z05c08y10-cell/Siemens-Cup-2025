@@ -127,3 +127,24 @@
 2. 串口调试助手需勾选 **DTR**，否则 MCU 复位后程序不运行。
 3. 请使用 USB 线连接板载的 USB_PORT 接口进行调试。
 4. LED 与独立按键需用杜邦线连接至对应 IO 口。
+
+---
+
+## 许可证
+
+本项目采用 **MIT License**，详见 [LICENSE](LICENSE)。
+
+### 第三方组件
+
+本工程包含以下第三方开源/官方组件，其版权归各自所有者，使用与分发时请遵守其原始许可：
+
+| 组件 | 位置 | 说明 |
+| --- | --- | --- |
+| GD32F4xx 标准外设库 | `Drivers/GD32F4xx_standard_peripheral/` | 兆易创新 (GigaDevice) 官方固件库 |
+| CMSIS / Cortex-M4 内核支持 | `Drivers/CMSIS/` | ARM 官方 |
+| FatFs 文件系统 | `Middlewares/FATFS/` | ChaN 开源项目，见其 `documents/` 目录 |
+| 内存管理 | `Middlewares/MALLOC/` | 工程附带的 malloc 实现 |
+
+> 上述组件版权归原作者所有，MIT 许可仅适用于本项目自行编写的代码部分
+> （主要是 `User/` 与 `Drivers/BSP/` 下的应用层与板级驱动）。
+
