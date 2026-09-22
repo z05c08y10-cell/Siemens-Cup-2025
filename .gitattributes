@@ -1,0 +1,25 @@
+# 默认按文本处理并统一为 LF 存储，检出到 Windows 时用 CRLF
+* text=auto
+
+# 源码保持 CRLF（Keil MDK / ARMCC 环境下更友好）
+*.c    text eol=crlf
+*.h    text eol=crlf
+*.s    text eol=crlf
+*.S    text eol=crlf
+*.uvprojx  text eol=crlf
+*.uvoptx   text eol=crlf
+*.hex      text eol=crlf
+*.bat      text eol=crlf
+
+# 二进制文件：禁止任何换行符转换与文本合并
+*.xlsx  binary
+*.zip   binary
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.axf   binary
+*.bin   binary
+*.o     binary
+*.crf   binary
+*.lib   binary
+*.a     binary
