@@ -1,0 +1,51 @@
+# ============================================
+#  Keil MDK (uVision) build artifacts
+# ============================================
+# Output folder: keep only the released firmware image
+Output/*
+!Output/GD32F470.hex
+
+# uVision per-user GUI layout / session files
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.iex
+*.dep
+*.lnp
+*.sct
+*.map
+*.lst
+*.crf
+*.o
+*.d
+*.axf
+*.htm
+*.build_log.htm
+
+# uVision lock / log files
+*.lock
+*.log
+JLinkLog.txt
+JLinkSettings.ini
+
+# Keil RTE / objects / listings
+RTE/
+Objects/
+Listings/
+DebugConfig/
+*.build_log.htm
+
+# ============================================
+#  Editors / OS
+# ============================================
+.vscode/keil-assistant.log
+.vscode/uv4.log.lock
+.vscode/*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
